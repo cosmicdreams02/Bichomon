@@ -29,7 +29,7 @@ for ( let i = 0; i < nodosimagen.length; i++) {
 
 //Sustituye el atributo "src" de todas las imágenes por este "https://media.giphy.com/media/2v170e71aanfi/giphy.gif"
 
-var sustitucion = document.querySelectorAll('span.infocard-lg-img > a > img').innerHTML = "https://media.giphy.com/media/2v170e71aanfi/giphy.gif";
-
+var sustituir = document.querySelectorAll('img')
+sustituir.forEach(img => img.src = 'https:media.giphy.com/media/2v170e71aanfi/giphy.gif');
 
 //Premium:Cambia el fondo de todos los infocard-lg-data text-muted para todos los Pokimon voladores itype flying
